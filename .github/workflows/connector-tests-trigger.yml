@@ -7,7 +7,7 @@
 name: Connector Tests Trigger
 on:
   workflow_run:
-    workflows: ["Python Build", "Metadata Ingestion"]
+    workflows: ["Python Build"]
     types: [completed]
 
 concurrency:
