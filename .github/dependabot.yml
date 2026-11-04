@@ -17,4 +17,7 @@ updates:
     target-branch: "develop"
     schedule:
       interval: "weekly"
-    target-branch: "develop"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
